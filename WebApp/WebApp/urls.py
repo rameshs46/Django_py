@@ -18,5 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hw/', include('HelloWorld.urls'))
+    path('hw/', include('HelloWorld.urls')),
+    path('dc/', include('dynamiccontent.urls')),
+    path('qp/', include('queryparam.urls'))
 ]
