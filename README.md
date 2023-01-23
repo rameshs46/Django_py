@@ -1,1 +1,1 @@
-# Django_py
+# Python application using Django web framework.
