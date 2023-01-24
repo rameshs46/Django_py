@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hw/', include('HelloWorld.urls')),
     path('dc/', include('dynamiccontent.urls')),
-    path('qp/', include('queryparam.urls'))
+    path('qp/', include('queryparam.urls')),
+    path('pp1/', include('pathparam1.urls')),
 ]
